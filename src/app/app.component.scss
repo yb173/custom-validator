@@ -1,0 +1,19 @@
+.form-group {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 200px;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-items: start;
+  align-items: center;
+}
+
+.form-group__mobile {
+  grid-row: 1 / 2;
+  grid-column-start: 1 / 2;
+}
+
+.form-group__owner {
+  grid-row: 2 / 3;
+  grid-column-start: 1 / 2;
+}
